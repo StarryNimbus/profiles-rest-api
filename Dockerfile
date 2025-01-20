@@ -10,5 +10,4 @@ COPY . .
 # Need to manually run this script due to error '/bin/sh: 1: source: not found'
 RUN chmod +x startVirtualEnvironment.sh
 
-# CMD [ "python3", "./helloWorld.py" ]
 CMD ["tail", "-f", "/dev/null"]

@@ -9,7 +9,7 @@ echo "Virtual environment activated. Python version: $(python --version)"
 
 pip install -r /usr/src/app/requirements.txt
 
+# OPTIONAL
 # Create a new Django project and app
-# I think this might not be necessary?
-django-admin startproject profiles_project .
-python manage.py startapp profiles_api
+# django-admin startproject profiles_project .
+# python manage.py startapp profiles_api
